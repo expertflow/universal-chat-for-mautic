@@ -1,0 +1,29 @@
+{
+  "name": "expertflow/universal-chat-for-mautic",
+  "description": "Universal chat for Mautic Webchat, SMS, Whatsapp, Facebook Messenger, LiveChat, and plugin to any chatbot (Rasa, Google Dialogflow, IBM Watson,...).",
+  "type": "mautic-plugin",
+  "version": "1.0",
+  "keywords": ["hybridChat","activemq","mautic","plugin","sms","transport"],
+  "authors": [
+    {
+      "name": "Expertflow",
+      "email": "helpdesk@expertflow.com",
+      "homepage": "https://github.com/expertflow",
+      "role": "Organization"
+    }
+  ],
+  "extra": { 
+      "install-directory-name": "MauticActivemqTransportBundle"
+  },
+  "require": {
+    "mautic/composer-plugin": "^2.0",
+    "mautic/mautic": "^3.2",
+    "mautic/core-lib": "^4.0",
+    "php" : ">=7.4.0 <8.1", 
+    "ext-zip": "^1.15"
+  },
+  "scripts": {
+    "csfixer": "../../bin/php-cs-fixer fix . -v --dry-run --diff --using-cache=no",
+    "fixcs": "../../bin/php-cs-fixer fix . -v --using-cache=no"
+  }
+}
