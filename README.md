@@ -21,7 +21,7 @@ Universal chat for Mautic Webchat, SMS, Whatsapp, Facebook Messenger, LiveChat, 
 
 ### Plugin Installation (do not use composer at this time)
 
-1. Download https://github.com/expertflow/mautic-amq-plugin
+1. Download https://github.com/expertflow/universal-chat-for-mautic
 2. Extract it to `plugins/MauticActivemqTransportBundle`
 3. Delete `app/cache/prod` or run `rm -rf var/cache/*` to clear the cache 
 4. Go to `Plugins` in the Mautic admin menu (/s/plugins)
