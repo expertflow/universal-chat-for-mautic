@@ -5,7 +5,7 @@ Universal chat for Mautic Webchat, SMS, Whatsapp, Facebook Messenger, LiveChat, 
 1. Mautic 3.2
 2. PHP 7+
 3. Stomp-php 5.0.0 (https://github.com/stomp-php/stomp-php)
-4. https://github.com/expertflow/mautic-amq-plugin
+4. https://github.com/expertflow/universal-chat-for-mautic
 
 
 ## How to install
